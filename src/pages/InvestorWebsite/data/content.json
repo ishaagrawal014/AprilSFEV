@@ -1,0 +1,218 @@
+
+{
+  "home": {
+    "hero": {
+      "title": "Speed Force EV – Invest in EV Fleets. Earn Monthly. Stay Hassle-Free.",
+      "subtitle": "Invest Smart. All in One Place.",
+      "ctaPrimary": "Invest Now",
+      "ctaSecondary": "View Plans"
+    },
+    "highlights": [
+      {
+        "title": "Invest in EV Fleet",
+        "description": "Partner with a validated business model backed by real demand"
+      },
+      {
+        "title": "Monthly Recurring Rentals",
+        "description": "Enjoy predictable monthly income with fixed 48-month payouts"
+      },
+      {
+        "title": "Empower Delivery Riders",
+        "description": "Support the green logistics revolution while earning returns"
+      }
+    ],
+    "stats": {
+      "deployed": 3820,
+      "active": 3487,
+      "greenKilometers": 7023732
+    }
+  },
+  "opportunity": {
+    "title": "How the model works",
+    "subtitle": "Join India's fastest-growing EV rental ecosystem",
+    "sections": [
+      {
+        "heading": "You purchase the EVs",
+        "content": "Choose your investment slab.  Each slab equals a specific number of EVs. Ownership Tax invoices are shared with you for 100% transparency"
+      },
+      {
+        "heading": "Lease to Speed Force EV",
+        "content": "A notarized lease agreement is signed where you lease vehicles to the company for 4 years. Fixed monthly rental per vehicle for the entire term, irrespective of daily utilization."
+      },
+      {
+        "heading": "We Deploy & Manage",
+        "content": "Our team handles driver onboarding, routing, charging, maintenance, insurance and legal compliances. Vehicles are deployed to fleet owners working:"
+      },
+      {
+        "heading": "Monthly Rental for 4 Years",
+        "content": "Rent will be transferred directly to your bank account every month 15% Salvage value on Invested amount after 48 months."
+      }
+    ],
+    "whyNow": [
+      "100% Asset Ownership: You hold the title. We handle the title deeds.",
+      "Guaranteed Deployment: Immediate leasing to top-tier delivery partners (Swiggy, Zomato, etc.).",
+      "Zero Maintenance Risk: We cover all service and repair costs. Your rental income remains untouched.",
+      "Track Record of Trust: Successfully operating in 8+ cities. We don't just promise; we deliver."
+    ]
+  },
+  "why": {
+    "title": "Why Speed Force EV?",
+    "model": "FOCO (Franchise-Owned, Company-Operated)",
+    "returns": "83%* absolute returns",
+    "tenure": "48 months fixed payout",
+    "features": [
+      "Zero-maintenance EV assets",
+      "Higher margins than traditional investments",
+      "Transparent operations via investor app",
+      "Government-backed EV subsidies"
+    ]
+  },
+  "partners": {
+    "title": "Trusted by Leading Delivery Platforms",
+    "subtitle": "Validated product–market fit with India's top logistics partners",
+    "logos": ["Zepto", "Swiggy", "Zomato", "Blinkit", "Dunzo"]
+  },
+  "how": {
+    "title": "How to Start?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Investment Slab Selection",
+        "description": "Choose from flexible slabs starting at ₹2.5 lakhs",
+        "image": "/images/1000155233.jpg"
+      },
+      {
+        "number": "02",
+        "title": "E-Agreements",
+        "description": "Digital documentation with secure e-signature process",
+        "image": "/images/10001552331.jpg"
+      },
+      {
+        "number": "03",
+        "title": "Payment",
+        "description": "Secure payment gateway with instant confirmation",
+        "image": "/images/10001552332.jpg"
+      },
+      {
+        "number": "04",
+        "title": "App Access",
+        "description": "Real-time dashboard to track your investment and monthly payouts",
+        "image": "/images/10001552333.jpg"
+      }
+    ]
+  },
+  "vision": {
+    "title": "Our Vision",
+    "tagline": "Invest, Relax, Earn.",
+    "mission": "To democratize EV fleet ownership and create sustainable passive income for investors while accelerating India's green logistics transition.",
+    "highlights": [
+      "Zero-maintenance EV assets managed by experts",
+      "Higher margins compared to traditional real estate or FDs",
+      "FOCO model ensures operational excellence",
+      "Contributing to India's carbon neutrality goals"
+    ]
+  },
+  "investmentExample": {
+    "slab": 250000,
+    "monthlyRent": 8800,
+    "annualRent": 105600,
+    "total4Years": 422400,
+    "salvageValue": 37500,
+    "totalReceivable": 459900,
+    "roi": 83.96
+  },
+  "comparison": {
+    "mutualFunds": "10-12%",
+    "realEstate": "8-10%",
+    "gold": "6-8%",
+    "fixedDeposits": "5-7%",
+    "speedForceEV": "21% annualized*"
+  },
+  "snapshot": {
+    "vehicles": "3,820+",
+    "revenue": "₹10 Cr+",
+    "deliveries": "10,000+ per day",
+    "fleetOwners": "30+",
+    "locations": "8+",
+    "greenKilometers": "1 Cr+"
+  },
+  "faqs": [
+    {
+      "question": "What is the FOCO model?",
+      "answer": "FOCO stands for Franchise-Owned, Company-Operated. You invest in EV assets, and Speed Force EV handles all operations, maintenance, and rider management."
+    },
+    {
+      "question": "What are the investment slabs?",
+      "answer": "We offer flexible slabs starting from ₹2.5 lakhs up to ₹50+ lakhs. Each slab corresponds to specific vehicle units with proportional monthly returns."
+    },
+    {
+      "question": "How are monthly payouts calculated?",
+      "answer": "Monthly rent is pre-determined based on your investment slab with a 48-month fixed tenure. Example: ₹2.5L investment = ₹8,800/month."
+    },
+    {
+      "question": "What happens after 48 months?",
+      "answer": "After the tenure, you receive a salvage value (typically 15% of investment) plus all accumulated monthly rentals."
+    },
+    {
+      "question": "How do I track my investment?",
+      "answer": "You'll get access to our investor dashboard showing real-time vehicle status, monthly payouts, and downloadable statements."
+    },
+    {
+      "question": "Why is Speed Force EV accepting limited partners?",
+      "answer": "We maintain quality over quantity, ensuring each fleet owner receives dedicated support and transparent operations."
+    }
+  ],
+  "contact": {
+    "email": "support@speedforceev.in",
+    "phone": "+91 8866812888",
+    "notice": "ACCEPTING LIMITED PARTNERS ONLY",
+    "slabs": [
+      "₹2.5 Lacs",
+      "₹5 Lacs",
+      "₹10 Lacs",
+      "₹15-20 Lacs",
+      "₹20-30 Lacs",
+      "₹30-40 Lacs",
+      "₹40-50 Lacs",
+      "₹50+ Lacs"
+    ]
+  },
+  "social": {
+    "instagram": "https://www.instagram.com/speedforceev",
+    "linkedin": "https://www.linkedin.com/company/speedforce-ev",
+    "facebook": "https://www.facebook.com/share/1DakZVicYk/",
+    "website": "https://speedforceev.in/"
+  },
+  "footer": {
+    "copyright": "2025 © Speed Force EV",
+    "tagline": "Driving India's Green Logistics Revolution"
+  },
+  "content": {
+    "images": [
+      {
+        "src": "/images/1.JPG",
+        "alt": "Electric delivery van"
+      },
+      {
+        "src": "/images/2.JPG",
+        "alt": "Speed Force EV fleet in operation"
+      },
+      {
+        "src": "/images/3.JPG",
+        "alt": "EV charging station"
+      },
+      {
+        "src": "/images/4.JPG",
+        "alt": "EV charging station"
+      },
+      {
+        "src": "/images/5.JPG",
+        "alt": "EV charging station"
+      },
+      {
+        "src": "/images/6.JPG",
+        "alt": "EV charging station"
+      }
+    ]
+  }
+}

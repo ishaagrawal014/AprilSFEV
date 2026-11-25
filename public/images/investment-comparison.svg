@@ -1,0 +1,15 @@
+<svg width="640" height="360" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Investment comparison illustration">
+  <rect width="640" height="360" rx="32" fill="#f0f6ff"/>
+  <rect x="48" y="80" width="80" height="200" rx="12" fill="#d1e4ff"/>
+  <rect x="168" y="40" width="80" height="240" rx="12" fill="#1d853e"/>
+  <rect x="288" y="110" width="80" height="170" rx="12" fill="#ffc371"/>
+  <rect x="408" y="140" width="80" height="140" rx="12" fill="#ff8ba7"/>
+  <rect x="528" y="180" width="80" height="100" rx="12" fill="#a0aec0"/>
+  <text x="88" y="310" text-anchor="middle" fill="#050505" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14">FD</text>
+  <text x="208" y="310" text-anchor="middle" fill="#050505" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14">Speed Force EV</text>
+  <text x="328" y="310" text-anchor="middle" fill="#050505" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14">Mutual Funds</text>
+  <text x="448" y="310" text-anchor="middle" fill="#050505" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14">Real Estate</text>
+  <text x="568" y="310" text-anchor="middle" fill="#050505" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="14">Gold</text>
+  <text x="320" y="40" text-anchor="middle" fill="#132644" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="18">Asset Class ROI Overview</text>
+</svg>
+

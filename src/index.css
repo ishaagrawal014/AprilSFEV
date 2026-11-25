@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    /* Alt Mobility Brand Colors */
+    --background: 210 50% 98%;
+    --foreground: 217 69% 22%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 217 69% 22%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 217 69% 22%;
+
+    /* Navy Blue Primary */
+    --primary: 217 69% 22%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Light Sky Blue Secondary */
+    --secondary: 202 60% 95%;
+    --secondary-foreground: 217 69% 22%;
+
+    /* Muted Gray */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    /* Accent (Green) */
+    --accent: 142 60% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 69% 22%;
+
+    --radius: 0.75rem;
+
+    /* Custom Brand Colors */
+    --navy: 217 69% 22%;
+    --navy-light: 217 50% 35%;
+    --sky-light: 202 60% 95%;
+    --sky-medium: 202 50% 90%;
+    --gold: 142 60% 40%;
+    --gold-hover: 142 60% 35%;
+    --gray-text: 220 9% 46%;
+    --gray-light: 220 14% 64%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(217 69% 22%) 0%, hsl(217 50% 35%) 100%);
+    --gradient-sky: linear-gradient(180deg, hsl(202 60% 95%) 0%, hsl(0 0% 100%) 100%);
+    --gradient-gold: linear-gradient(135deg, rgb(34, 197, 94) 0%, hsl(142 60% 40%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(15 46 95 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(15 46 95 / 0.08), 0 2px 4px -2px rgb(15 46 95 / 0.05);
+    --shadow-lg: 0 10px 15px -3px rgb(15 46 95 / 0.1), 0 4px 6px -4px rgb(15 46 95 / 0.05);
+    --shadow-xl: 0 20px 25px -5px rgb(15 46 95 / 0.1), 0 8px 10px -6px rgb(15 46 95 / 0.05);
+    --shadow-gold: 0 4px 14px 0 rgb(34 197 94 / 0.28);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 217 69% 8%;
+    --foreground: 210 40% 98%;
+
+    --card: 217 69% 12%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 217 69% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 51 100% 50%;
+    --primary-foreground: 217 69% 22%;
+
+    --secondary: 217 50% 20%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 142 60% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 32% 20%;
+    --input: 217 32% 20%;
+    --ring: 51 100% 50%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-primary font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .container-alt {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-navy-light;
+  }
+
+  .btn-gold {
+    @apply bg-accent text-accent-foreground font-semibold px-6 py-3 rounded-full 
+           transition-all duration-300 hover:shadow-gold hover:scale-105;
+  }
+
+  .btn-navy {
+    @apply bg-primary text-primary-foreground font-medium px-6 py-3 rounded-full 
+           transition-all duration-300 hover:opacity-90;
+  }
+
+  .stat-card {
+    @apply bg-card rounded-xl p-6 shadow-md text-center transition-all duration-300 hover:shadow-lg;
+  }
+
+  .benefit-card {
+    @apply bg-secondary rounded-xl p-6 transition-all duration-300 hover:bg-sky-medium;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .stagger-1 { animation-delay: 0.1s; }
+  .stagger-2 { animation-delay: 0.2s; }
+  .stagger-3 { animation-delay: 0.3s; }
+  .stagger-4 { animation-delay: 0.4s; }
+  .stagger-5 { animation-delay: 0.5s; }
+}
