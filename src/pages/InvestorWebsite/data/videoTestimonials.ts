@@ -44,14 +44,6 @@ export const videoTestimonials: VideoTestimonial[] = [
   },
   {
     id: 5,
-    name: "Faheem Ji",
-    place: "Dubai, UAE",
-    videoSrc: "/images/Video/WhatsApp%20Video%202026-11-03%20at%2016.09.mp4",
-    avatar: "/images/Video/frames/vid_8_wa_1609_3s.jpg",
-    previewTime: 10.0
-  },
-  {
-    id: 6,
     name: "Praful Jain",
     place: "Latur, Maharashtra",
     videoSrc: "/images/Video/VID-20261031-WA0000.mp4",
@@ -59,7 +51,7 @@ export const videoTestimonials: VideoTestimonial[] = [
     previewTime: 1.5
   },
   {
-    id: 7,
+    id: 6,
     name: "Vikas Sheth",
     place: "Kashi, Varanasi",
     videoSrc: "/images/Video/VID-20261103-WA0000%20(1)_1.mp4",
@@ -67,12 +59,20 @@ export const videoTestimonials: VideoTestimonial[] = [
     previewTime: 1.5
   },
   {
-    id: 8,
+    id: 7,
     name: "Parth Jain",
     place: "Latur, Maharashtra",
     videoSrc: "/images/Video/WhatsApp%20Video%202026-11-03%20at%2016.09.32.mp4",
     avatar: "/images/Video/frames/vid_7_wa_160932_3s.jpg",
     previewTime: 1.5
+  },
+  {
+    id: 8,
+    name: "Faheem Ji",
+    place: "Dubai, UAE",
+    videoSrc: "/images/Video/WhatsApp%20Video%202026-11-03%20at%2016.09.mp4",
+    avatar: "/images/Video/frames/vid_8_wa_1609_3s.jpg",
+    previewTime: 10.0
   },
   {
     id: 9,
