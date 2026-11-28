@@ -5,7 +5,7 @@ const Hero = () => {
     const statsData = [
         {
             label: "Deployed Vehicles",
-            value: "14,000+",
+            value: "12,000+",
             icon: MapPin,
             color: "text-blue-400"
         },

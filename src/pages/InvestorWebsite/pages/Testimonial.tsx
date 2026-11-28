@@ -413,7 +413,30 @@ const TestimonialSection: React.FC = () => {
         const el = scrollContainerRef.current;
         if (!el) return;
 
-        const scrollAmount = el.clientWidth * 0.75;
+        const cardElements = el.querySelectorAll<HTMLElement>('.snap-start');
+        if (cardElements.length > 0) {
+            const firstCard = cardElements[0];
+            const gap = 24; // gap-6 in tailwind is 24px
+            const cardTotalWidth = firstCard.offsetWidth + gap;
+            // Calculate how many cards are visible per slide
+            const cardsPerSlide = Math.max(1, Math.floor((el.clientWidth + gap) / cardTotalWidth));
+
+            const currentIndex = Math.round(el.scrollLeft / cardTotalWidth);
+            const targetIndex = direction === 'right'
+                ? Math.min(cardElements.length - 1, currentIndex + cardsPerSlide)
+                : Math.max(0, currentIndex - cardsPerSlide);
+
+            if (cardElements[targetIndex]) {
+                cardElements[targetIndex].scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest',
+                    inline: 'start'
+                });
+                return;
+            }
+        }
+
+        const scrollAmount = el.clientWidth;
         el.scrollBy({
             left: direction === 'left' ? -scrollAmount : scrollAmount,
             behavior: 'smooth'
