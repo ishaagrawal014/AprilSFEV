@@ -67,6 +67,7 @@ export default function FleetPresence() {
                                 <span>Expansion Progress</span>
                                 <span>{fleetReserved} / {fleetTotal} Vehicles</span>
                                 <span className="text-green-500">Phase 1</span>
+
                             </div>
                             <div className="w-full bg-white/20 h-1.5 rounded-full">
                                 <div

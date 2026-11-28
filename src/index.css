@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -213,4 +213,24 @@
   .stagger-3 { animation-delay: 0.3s; }
   .stagger-4 { animation-delay: 0.4s; }
   .stagger-5 { animation-delay: 0.5s; }
+
+  /* Custom visible horizontal scrollbar for video testimonials */
+  .testimonial-scrollbar::-webkit-scrollbar {
+    height: 8px;
+  }
+  .testimonial-scrollbar::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 9999px;
+  }
+  .testimonial-scrollbar::-webkit-scrollbar-thumb {
+    background: #22c55e;
+    border-radius: 9999px;
+  }
+  .testimonial-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #16a34a;
+  }
+  .testimonial-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #22c55e #f1f5f9;
+  }
 }

@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 dist.zip
 dist/
+
+# Large video binaries (exceeds GitHub 100MB file limit)
+*.mp4
+public/images/Video/*.mp4
+public/videos/

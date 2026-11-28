@@ -65,7 +65,7 @@ const About = () => {
                   { value: "2021", label: "Founded" },
                   { value: "EV", label: "First Focused Fleet" },
                   { value: "100%", label: "Sustainable Operations" },
-                  { value: "14,000+", label: "Vehicles Deployed" },
+                  { value: "12,000+", label: "Vehicles Deployed" },
                 ].map((stat, i) => (
                   <div
                     key={i}
